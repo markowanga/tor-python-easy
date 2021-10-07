@@ -1,7 +1,5 @@
 # tor-python-easy
 
--------
-
 **tor-python-easy** was developed for use tor proxy in python with easy interface, which allow for
 changing ip address whenever you want.
 
