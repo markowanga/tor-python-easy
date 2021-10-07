@@ -1,7 +1,8 @@
 [tool.poetry]
 name = "tor-python-easy"
-version = "0.1.1"
-description = ""
+version = "0.1.2"
+description = "Simple library to manage tor proxy and IP changes"
+homepage = "https://github.com/markowanga/tor-python-easy"
 authors = ["Marcin Wątroba <markowanga@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "tor_python_easy" }]
