@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tor-python-easy"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Marcin Wątroba <markowanga@gmail.com>"]
 readme = "README.md"
