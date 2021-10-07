@@ -3,8 +3,6 @@ import sys
 import time
 from typing import Optional
 
-import requests
-
 
 class TorControlPortClient:
     control_address: str
@@ -21,7 +19,8 @@ class TorControlPortClient:
         self.control_port = control_port
         self.control_password = control_password
 
-    def change_connection_ip(self) -> bool:
+    def change_connection_ip(self, seconds_wait: int = 5) -> bool:
+        time.sleep(seconds_wait)
         try:
             tor_connection = socket.create_connection((self.control_address, self.control_port))
             password_value = self.control_password if self.control_password is not None else ''
@@ -36,10 +35,3 @@ class TorControlPortClient:
             print(e)
             sys.stderr.write('Error connecting to Tor control port: {}\n'.format(repr(e)))
             return False
-
-
-if __name__ == '__main__':
-    requests_get_ip()
-    time.sleep(5)
-    TorControlPortClient('127.0.0.1', 9051, 'test1234').change_connection_ip()
-    requests_get_ip()
