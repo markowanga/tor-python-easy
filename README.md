@@ -21,7 +21,7 @@ Library is only one file, so you can copy it to project.
 However, if you want you can install it with pip:
 
 ```bash
-pip3 install tor_python_easy
+pip3 install tor-python-easy
 ```
 
 ## Run tor proxy
