@@ -64,4 +64,4 @@ There are two simple ways to run tor proxy.
            print(f'iteration {it + 1} ::  {old_ip} -> {new_ip}')
    ```
    
-   Output will give 10 ip migrations.
+   Output will give 10 IP migrations.
