@@ -13,7 +13,7 @@ class TorControlPortClient:
             self,
             control_address: str,
             control_port: int,
-            control_password: Optional[str]
+            control_password: Optional[str] = None
     ):
         self.control_address = control_address
         self.control_port = control_port
