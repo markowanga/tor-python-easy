@@ -35,7 +35,7 @@ There are two simple ways to run tor proxy.
    ```
 2. Second one uses tor installed in OS
    ```shell
-   tor --configport 9051 
+   tor --controlport 9051 
    ```
 
 ## Use lib with python
