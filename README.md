@@ -1,8 +1,8 @@
 # tor-python-easy
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-![Python package](https://github.com/markowanga/stweet/workflows/Python%20package/badge.svg?branch=master)
-[![PyPI version](https://badge.fury.io/py/stweet.svg)](https://badge.fury.io/py/stweet)
+[![CI Main](https://github.com/markowanga/tor-python-easy/actions/workflows/python-master.yml/badge.svg)](https://github.com/markowanga/tor-python-easy/actions/workflows/python-master.yml)
+[![PyPI version](https://badge.fury.io/py/tor-python-easy.svg)](https://badge.fury.io/py/tor-python-easy)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
 
