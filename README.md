@@ -1,5 +1,11 @@
 # tor-python-easy
 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![Python package](https://github.com/markowanga/stweet/workflows/Python%20package/badge.svg?branch=master)
+[![PyPI version](https://badge.fury.io/py/stweet.svg)](https://badge.fury.io/py/stweet)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
+
 **tor-python-easy** was developed for use tor proxy in python with easy interface, which allow for
 changing ip address whenever you want.
 
